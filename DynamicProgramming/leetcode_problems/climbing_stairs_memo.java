@@ -1,4 +1,3 @@
-package DynamicProgramming.leetcode_problems;
 // https://leetcode.com/problems/climbing-stairs/
 
 /* You can reach the top of the staircase either by taking one step or two steps at a time.
