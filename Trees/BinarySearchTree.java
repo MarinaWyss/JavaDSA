@@ -45,10 +45,8 @@ public class BinarySearchTree {
         else if (val < root.val) {
             root.left = insert(root.left, val);
         }
-        else {
-            // If the value already exists in the tree, do nothing
-            return root;
-        }
+        // If the value already exists in the tree, do nothing
+        return root;
     }
 
     // Create a helper function required for removing when
